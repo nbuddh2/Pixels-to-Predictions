@@ -7,7 +7,7 @@ dependencies:
   - python==3.7
   - pip
   - matplotlib
-  - opencv
+
 #### Pip
 ```
 pip install -r requirements.txt
