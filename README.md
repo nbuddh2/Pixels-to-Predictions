@@ -7,6 +7,7 @@ dependencies:
   - python==3.7
   - pip
   - matplotlib
+  - opencv
 
 #### Pip
 ```
@@ -16,6 +17,9 @@ pip install -r requirements.txt
 Download yolo model (https://drive.google.com/drive/folders/1h77gvTMMIlmoN7Wn4_7URY92-eAcdMHP?usp=drive_link)
 Download the weights for the project using this link (https://drive.google.com/drive/folders/1VZomK53Dqaq7iHbRNKx4_Ddt0sHaueH_?usp=drive_link)
 
+## Path
+Add the video input path to the object_tracker.py
+
 ## Running the Object Tracker
 Now you can run the object tracker for the model.
 ```
@@ -23,6 +27,9 @@ python object_tracker.py
 ```
 ## Github Link
 (https://github.com/nbuddh2/Pixels-to-Predictions)
+
+## Faster RCNN Model
+(https://drive.google.com/file/d/1Tu-B7FXRrTP9GGcos8gqpTy5slah8Rjl/view?usp=drive_link)
 
 ## Acknowledgments
 * [Deep SORT Repository](https://github.com/nwojke/deep_sort)
